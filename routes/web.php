@@ -45,5 +45,7 @@ Route::middleware([
 
 Route::get('photos', function () {
     //dd(Photo::all());
-    return Inertia::render('Guest/Photos');
+    // return Inertia::render('Guest/Photos');
+    return Inertia::render('Photos');
+
 });
